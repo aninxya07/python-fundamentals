@@ -1,4 +1,4 @@
-# String in Python
+# String in Python (Immutable in nature)
 # A string is a sequence of characters enclosed within single quotes(' ') or double quotes(" ")
 
 name = "Anindya"

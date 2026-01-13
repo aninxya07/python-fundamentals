@@ -15,7 +15,7 @@ print(ep1)
 
 # 3. Empty dictionary defining
 ep3 = {}
-print(ep3)
+print(ep3, type(ep3))
 
 
 # 4. Pop

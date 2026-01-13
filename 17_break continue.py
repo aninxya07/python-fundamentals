@@ -16,10 +16,19 @@ print("\n")
 
 
 # continue
+for i in range(10):
+    if(i==8):
+        print("Skip sorry")
+        continue
+    print(i)
 
+
+# another example
 for i in range(10):
     if(i==8):   # it'll skip the iteration where i=8, means 5 x (8+1) = 5x9 = 45 will be skipped
         print("Skipping this iteration")
         continue
     print("5 x", i+1, "=", 5*(i+1))
+
+
 

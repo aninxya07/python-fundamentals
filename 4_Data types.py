@@ -36,3 +36,13 @@ print(dict1, type(dict1))
 
 # everything you make or define in Python is an object,
 # it can be an int obj, str obj, dictionary obj etc.
+
+
+# Mutable data types
+# 1. List
+# 2. Set
+# 3. Dictionary
+
+# Immutable data types
+# 1. Tuple
+# 2. String

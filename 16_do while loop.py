@@ -4,7 +4,7 @@
 #     // code block to be executed
 # } while (condition);
 
-# there's no do while loop in Python like it is in C/C++ or Java
+# there's no do-while loop in Python like it is in C/C++ or Java
 # But we can achieve the similar function by modifying the existing while loop
 
 i=0
@@ -17,6 +17,7 @@ while True:
 # but after going through the condition it became false, and it exited (while part of do-while loop)
 
 
+# loop until remainder is 0
 i=0
 while True:
     print(i, end=" ")
@@ -26,6 +27,7 @@ while True:
 print("\n")
 
 
+# loop until negative no is entered
 while True:
     num = int(input("Enter a positive number: "))
     print(num)

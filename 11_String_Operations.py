@@ -28,12 +28,14 @@ print(str2.replace("Sp", "M"))
 
 str3 = "AaAaaaaA"
 print(str3.replace("A", "O"))
+print(str3.replace("A", "O", 2))  # changes only first 2 occurrences of 'A' to 'O'
 
 
 # 5. Split()
 # splits the string at each space and returns a list of words
 str4 = "Silver Spoon"
 print(str4.split(" "))
+print(str4.split("e"))   # splits at each occurrence of 'e'
 
 
 # 6. Title() and Capitalize()
@@ -68,17 +70,20 @@ print(str9.endswith("to", 2, 10))
 str10 = "Cucumber"
 print(str10.startswith("Cu")) # True
 print(str10.startswith("co")) # False
+print(str9.endswith("to", 0, 5))
 
 
 # 11. find()
 str11 = "Watermelon"
-print(str11.find("me")) # 5 -> first occurrence of "me" otherwise -1 if not found
+print(str11.find("me"))   
+# 5 -> first occurrence of "me" otherwise -1 if not found
+
 
 
 # 12. index()
 # if we want to display an error in case of not finding any substring instead of -1
 # then we can use index() in place of find()
-# print(str11.replace("xy"))  # will display an error
+# print(str11.index("xy"))  # will display an error
 
 
 # 13. isalnum()

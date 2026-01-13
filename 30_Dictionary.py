@@ -3,11 +3,12 @@
 
 dic = {
     "Name":"Anindya",
-    "Age": 19,
+    "Age": 22,
     "Class": "Btech"
 }
 print(dic)
-print(dic["Name"]) # or print(dic.get("Name"))
+print(dic["Name"])
+# or print(dic.get("Name"))
 
 # in case of accessing a non existing key, it will throw an error in case of first method but will print 'None' in case of .get()
 

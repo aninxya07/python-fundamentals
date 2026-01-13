@@ -1,4 +1,7 @@
-# escape sequence characters
+# Escape Sequence Characters
+# An escape sequence is a special character combination, usually starting with a backslash (`\`),
+# that represents a non-printable character (like newline \n, tab \t) or a character that has special meaning (like \" for a double quote)
+# within a string or character literal in programming, allowing you to include difficult-to-type or control characters.
 
 # new line
 print("hello\nAnindya")

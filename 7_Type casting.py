@@ -1,5 +1,5 @@
 # Type Casting
-# conversion of one data type into another data type is knows as type casting or type conversion in Python
+# conversion of one data type into another data type is known as type casting or type conversion in Python
 
 a = 1
 b = 2
@@ -17,6 +17,7 @@ print(e+f) # addition = 3
 
 # Different types of type casting functions such as:
 # int(), float(), str(), chr(), ord(), hex(), oct(), tuple(), list(), set(), dict()
+# string is a set of multiple characters
 
 x = "Anindya"
 # print(int(x)) # can't convert a string into an int, the string should be valid for type casting
@@ -31,7 +32,7 @@ print(int(m) + int(n)) # 12 -> user is type casting the necessery data types
 
 # 2. Implicit Type Casting
 # Python interpreter is doing the type casting on behalf of the user
-# Python converts a smaller data type to a higher data type automatically in order to avoid data loss
+# Python converts a lower data type to a higher data type automatically in order to avoid data loss
 # bool → int → float → complex
 
 x = 10

@@ -1,7 +1,7 @@
 # Functions in Python
 
 # 1. Built In Functions
-# min(), max(), len(), sum(), tyoe(), range(), dict(), list(), tuple(), set(), print(), input(), etc.
+# min(), max(), len(), sum(), type(), range(), dict(), list(), tuple(), set(), print(), input(), etc.
 
 # 2. User Defined Functions
 
@@ -29,5 +29,6 @@ print(calcGmean(3, 7))
 # trick to avoid indentation error in empty functions
 
 def isLesser(a, b):
-    pass  # write this if we plan to plan to complete this function in the future
-
+    pass  # write this if we plan to complete this function in the future
+# defining a func and without writing anything (even 'pass') will throw an error
+# team co-worker will see 'pass' and understand someone worked on this before

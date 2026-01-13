@@ -127,7 +127,7 @@ print(s1)
 # 14. Pop
 # removes the first item from the set
 
-s1 = {3, 2, 7, 5}
+s1 = {3, 2, 7, 5}   # get sorted first means 2 is removed
 item = s1.pop()
 print(s1)
 print(item)

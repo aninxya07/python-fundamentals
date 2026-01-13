@@ -9,7 +9,7 @@ tup = (1, 9, 5, 7, 2)
 print(tup, type(tup))
 
 # what if the tuple has only a single element?
-
+# if we don't add an comma it'll be treated as an 'int'
 tup2 = (10)   # need to add a comma after the single element
 print(tup2, type(tup2))   # the type is int now
 

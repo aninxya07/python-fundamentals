@@ -25,7 +25,7 @@ print(l1[-2])    # accessing second last element
 print(l1[-3])    # accessing third last element
 
 print(l1[len(l1)-3]) # accessing the same third last element but using positive index
-# len(l1)-3 = 5-3 = 2 means positive index 2 = negative third last element
+# len(l1)-3 = 4-3 = 1 means positive index 1 = negative third last element
 
 # Check if an item is present in the list using 'in' keyword
 
@@ -58,6 +58,12 @@ print(l3[1:-1])   # -1 = len(l3)-1 = 9-1 = 8 means it'll print from 1 to 7th pos
 print(l3[::2])    # prints all elements with a jump of 2 index
 print(l3[1:7:2])   # prints elements from index 1 to 6 with a jump of 2 index
 
+lis8 = [1, 2, 3, 4, 5]
+print(lis8[1:4][::-1])
+# first [1:4] gives -> [2, 3, 4] and over that apply [::-1]
+# [start : end : step] here step = -1 means reverse the list
+# final output -> [4, 3, 2]
+
 
 # List Comprehension
 # It is used for creating new lists from existing iterables like list, tuple, set, etc.
@@ -73,3 +79,6 @@ print(l6)
 
 l7 = [i*i for i in range(21) if i%2==0]   # creates a list of squares of even numbers from 0 to 20
 print(l7)
+
+
+
