@@ -49,3 +49,15 @@ print(tup5.index(1, 3, 6))   # looks for 1 between index 3 to 5 and returns the 
 # tup5 = (4, 2, 3, 1, 4, 1, 5, 1)
     
 print("Length of tup5 is:", len(tup5))
+
+
+# 5. Tuple unpacking
+a, b, c = (1, 2, 3)
+print(b)  # 2
+
+a, b = (1, 2, 3)
+# ValueError: too many values to unpack (expected 2)
+
+
+a, *b = (1, 2, 3, 4)
+print(b)

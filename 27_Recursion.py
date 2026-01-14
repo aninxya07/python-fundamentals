@@ -17,3 +17,14 @@ def fibonacci(n):
         return fibonacci(n-1) + fibonacci(n-2)
     
 print(fibonacci(8))
+
+
+# Tricky example to remember
+def f(n):
+    return f(n-1)
+
+print(f(5))    # maybe it seems to go for an infinite loop
+
+# But Python recursion doesn’t loop forever
+# It hits the maximum recursion depth
+# Then it throws, RecursionError: maximum recursion depth exceeded

@@ -19,3 +19,18 @@
 # Built-in module → Comes with Python
 # External module → Installed using pip
 # pip → Package Installer for Python
+
+
+# understand this in ChatGPT
+x = 5
+
+def outer():
+    x = 10
+    def inner():
+        nonlocal x
+        x += 1
+    inner()
+    return x
+
+print(outer())
+print(x)
